@@ -5,17 +5,17 @@ ActivePolyModLoader.importMods().then(() => {
   var e = {
       77: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/rotation_axis_x_positive.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_x_positive.svg"
       }
       ,
       493: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/empty.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/empty.svg"
       }
       ,
       516: (e, t, n) => {
           "use strict"; 
-          e.exports = n.p + "images/arrow_down.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_down.svg"
       }
       ,
       540: e => {
@@ -30,17 +30,17 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       813: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/winter.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/winter.svg"
       }
       ,
       853: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/icon.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/icon.svg"
       }
       ,
       858: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/discord.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/discord.svg"
       }
       ,
       1113: e => {
@@ -386,7 +386,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       1333: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/helmet.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/helmet.svg"
       }
       ,
       1465: (e, t, n) => {
@@ -424,39 +424,39 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       1705: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/desert.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/desert.svg"
       }
       ,
       1719: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/reset.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/reset.svg"
       }
       ,
       1734: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/test.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/test.svg"
       }
       ,
       1758: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/desert_colored.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/desert_colored.svg"
       }
       ,
       1784: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/cancel.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/cancel.svg"
       }
       ,
       1903: () => {}
       ,
       1925: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/copy.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/copy.svg"
       }
       ,
       1936: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/erase.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/erase.svg"
       }
       ,
       1997: (e, t, n) => {
@@ -474,27 +474,27 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       2175: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/random.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/random.svg"
       }
       ,
       2207: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/arrow_up.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_up.svg"
       }
       ,
       2208: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "2e5b7bff10d7782e539c.woff"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/2e5b7bff10d7782e539c.woff"
       }
       ,
       2319: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/delete.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/delete.svg"
       }
       ,
       2344: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/car_stripe.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/car_stripe.svg"
       }
       ,
       2346: (e, t, n) => {
@@ -512,17 +512,17 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       2493: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/overlapping_enabled.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/overlapping_enabled.svg"
       }
       ,
       2553: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/state_invalid.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/state_invalid.svg"
       }
       ,
       2709: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/custom_tracks.jpg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/custom_tracks.jpg"
       }
       ,
       2796: (e, t, n) => {
@@ -553,7 +553,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       2832: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "4e75ed8189c5a7b6fbf8.ttf"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/4e75ed8189c5a7b6fbf8.ttf"
       }
       ,
       2915: (e, t, n) => {
@@ -584,12 +584,12 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       3223: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/pending.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/pending.svg"
       }
       ,
       3518: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/grid_large.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/grid_large.svg"
       }
       ,
       3571: (e, t, n) => {
@@ -607,27 +607,27 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       3682: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "a82f15d48dbc61b6edeb.woff2"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/a82f15d48dbc61b6edeb.woff2"
       }
       ,
       3755: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/share.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/share.svg"
       }
       ,
       3895: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/rotation_axis_z_negative.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_z_negative.svg"
       }
       ,
       3901: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/summer.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/summer.svg"
       }
       ,
       3902: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/verified.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/verified.svg"
       }
       ,
       4239: (e, t, n) => {
@@ -645,7 +645,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       4309: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/save.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/save.svg"
       }
       ,
       4344: (e, t, n) => {
@@ -665,7 +665,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       4411: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/rotation_axis_z_positive.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_z_positive.svg"
       }
       ,
       4417: e => {
@@ -707,12 +707,12 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       4563: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/rotate.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotate.svg"
       }
       ,
       4593: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/reset_settings.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/reset_settings.svg"
       }
       ,
       4804: (e, t, n) => {
@@ -730,12 +730,12 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       4930: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/grid_small.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/grid_small.svg"
       }
       ,
       5001: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/rotation_axis_x_negative.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_x_negative.svg"
       }
       ,
       5007: (e, t, n) => {
@@ -753,12 +753,12 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       5010: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/winter_colored.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/winter_colored.svg"
       }
       ,
       5031: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/help.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/help.svg"
       }
       ,
       5056: (e, t, n) => {
@@ -869,7 +869,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       5148: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/checkpoint.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/checkpoint.svg"
       }
       ,
       5151: (e, t, n) => {
@@ -913,17 +913,17 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       5739: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/quit.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/quit.svg"
       }
       ,
       5769: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/state_pending.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/state_pending.svg"
       }
       ,
       5798: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/rotation_axis_y_negative.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_y_negative.svg"
       }
       ,
       5811: (e, t, n) => {
@@ -954,7 +954,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       5918: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/load.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/load.svg"
       }
       ,
       5959: (e, t, n) => {
@@ -972,7 +972,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       6027: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/pin.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/pin.svg"
       }
       ,
       6057: (e, t, n) => {
@@ -990,22 +990,22 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       6099: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/arrow_left.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_left.svg"
       }
       ,
       6150: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/arrow_right.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_right.svg"
       }
       ,
       6168: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/export.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/export.svg"
       }
       ,
       6244: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/state_verified.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/state_verified.svg"
       }
       ,
       6314: e => {
@@ -1054,7 +1054,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       6366: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/apply.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/apply.svg"
       }
       ,
       6474: (e, t, n) => {
@@ -1085,7 +1085,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       6838: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/smoke.png"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/smoke.png"
       }
       ,
       6925: () => {
@@ -1158,12 +1158,12 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       7173: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/windowed.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/windowed.svg"
       }
       ,
       7404: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/car_thumbnail_placeholder.png"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/car_thumbnail_placeholder.png"
       }
       ,
       7479: (e, t, n) => {
@@ -1181,7 +1181,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       7581: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/fullscreen.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/fullscreen.svg"
       }
       ,
       7659: e => {
@@ -1362,7 +1362,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       8115: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/community_tracks.jpg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/community_tracks.jpg"
       }
       ,
       8229: (e, t, n) => {
@@ -1380,7 +1380,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       8237: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/settings.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/settings.svg"
       }
       ,
       8353: (e, t, n) => {
@@ -1407,7 +1407,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       8358: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/overlapping_disabled.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/overlapping_disabled.svg"
       }
       ,
       8419: (e, t, n) => {
@@ -1434,7 +1434,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       8718: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/search.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/search.svg"
       }
       ,
       8768: (e, t, n) => {
@@ -1452,22 +1452,22 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       8787: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/back.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/back.svg"
       }
       ,
       8875: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/clouds.jpg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/clouds.jpg"
       }
       ,
       8889: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/editor.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/editor.svg"
       }
       ,
       8903: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/logo.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/logo.svg"
       }
       ,
       8909: (e, t, n) => {
@@ -1485,17 +1485,17 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       9027: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/customize.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/customize.svg"
       }
       ,
       9062: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/rotation_axis_y_positive.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_y_positive.svg"
       }
       ,
       9077: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/import.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/import.svg"
       }
       ,
       9207: (e, t, n) => {
@@ -1513,7 +1513,7 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       9236: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/play.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/play.svg"
       }
       ,
       9242: (e, t, n) => {
@@ -1531,22 +1531,22 @@ ActivePolyModLoader.importMods().then(() => {
       ,
       9391: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/official_tracks.jpg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/official_tracks.jpg"
       }
       ,
       9570: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/preview.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/preview.svg"
       }
       ,
       9708: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/pause.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/pause.svg"
       }
       ,
       9809: (e, t, n) => {
           "use strict";
-          e.exports = n.p + "images/checkmark.svg"
+          e.exports = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/checkmark.svg"
       }
   }
     , t = {};
