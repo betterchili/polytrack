@@ -24592,7 +24592,7 @@ ActivePolyModLoader.importMods().then(() => {
           }
           static initResources(e) {
               e.addResource();
-              const t = (new vo).load("images/smoke.png", ( () => {
+              const t = (new vo).load("https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/smoke.png", ( () => {
                   e.loadedResource()
               }
               ));
@@ -28236,7 +28236,7 @@ ActivePolyModLoader.importMods().then(() => {
           static initResources() {
               return gw(this, void 0, void 0, (function*() {
                   const e = yield new Promise(( (e, t) => {
-                      (new vl).load("models/car.glb", (n => {
+                      (new vl).load("https://cdn.jsdelivr.net/gh/betterchili/polytrack/models/car.glb", (n => {
                           function i(e) {
                               const t = n.scene.getObjectByName(e);
                               if (null == t)
@@ -28302,7 +28302,7 @@ ActivePolyModLoader.importMods().then(() => {
                           t(new Error("Failed to load image"))
                       }
                       )),
-                      n.src = "images/car_stripe.svg",
+                      n.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/car_stripe.svg",
                       dv.images = {
                           stripe: n
                       }
@@ -29727,7 +29727,7 @@ ActivePolyModLoader.importMods().then(() => {
               qy(this, Dy, "f").appendChild(c);
               const h = document.createElement("button");
               h.className = "button",
-              h.innerHTML = '<img class="button-icon" src="images/quit.svg"> ',
+              h.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/quit.svg"> ',
               h.append(document.createTextNode(t.get("Exit"))),
               h.addEventListener("click", ( () => {
                   i.playUIClick(),
@@ -29742,7 +29742,7 @@ ActivePolyModLoader.importMods().then(() => {
               ), "f"));
               const d = document.createElement("button");
               d.className = "button",
-              d.innerHTML = '<img class="button-icon" src="images/save.svg"> ',
+              d.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/save.svg"> ',
               d.append(document.createTextNode(t.get("Save"))),
               d.addEventListener("click", ( () => {
                   i.playUIClick(),
@@ -29752,7 +29752,7 @@ ActivePolyModLoader.importMods().then(() => {
               c.appendChild(d);
               const u = document.createElement("button");
               u.className = "button",
-              u.innerHTML = '<img class="button-icon" src="images/random.svg"> ',
+              u.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/random.svg"> ',
               u.append(document.createTextNode(t.get("Random"))),
               u.addEventListener("click", ( () => {
                   i.playUIClick(),
@@ -32229,7 +32229,7 @@ ActivePolyModLoader.importMods().then(() => {
           }
           static initResources(e) {
               e.addResource();
-              (new CA).load("forced_square.json", (t => {
+              (new CA).load("https://cdn.jsdelivr.net/gh/betterchili/polytrack/models/forced_square.json", (t => {
                   Zb(this, Qb, t, "f", Xb),
                   e.loadedResource()
               }
@@ -32323,7 +32323,7 @@ ActivePolyModLoader.importMods().then(() => {
               )),
               r.appendChild(a);
               const s = document.createElement("img");
-              s.src = "images/arrow_up.svg",
+              s.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_up.svg",
               a.appendChild(s);
               const o = document.createElement("button");
               o.addEventListener("click", ( () => {
@@ -32333,7 +32333,7 @@ ActivePolyModLoader.importMods().then(() => {
               )),
               r.appendChild(o);
               const l = document.createElement("img");
-              l.src = "images/arrow_down.svg",
+              l.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_down.svg",
               o.appendChild(l),
               px(this, lx, document.createElement("p"), "f"),
               fx(this, ox, "f").appendChild(fx(this, lx, "f")),
@@ -32442,7 +32442,7 @@ ActivePolyModLoader.importMods().then(() => {
               )),
               a.appendChild(s);
               const o = document.createElement("img");
-              o.src = "images/arrow_up.svg",
+              o.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_up.svg",
               s.appendChild(o);
               const l = document.createElement("button");
               l.addEventListener("pointerdown", ( () => {
@@ -32460,7 +32460,7 @@ ActivePolyModLoader.importMods().then(() => {
               )),
               a.appendChild(l);
               const c = document.createElement("img");
-              c.src = "images/arrow_down.svg",
+              c.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_down.svg",
               l.appendChild(c),
               Tx(this, Mx, ( () => {
                   Tx(this, Ex, !1, "f"),
@@ -32574,7 +32574,7 @@ ActivePolyModLoader.importMods().then(() => {
               h.appendChild(d);
               const u = document.createElement("button");
               u.className = "button",
-              u.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
+              u.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/back.svg"> ',
               u.append(document.createTextNode(r.get("Back"))),
               u.addEventListener("click", ( () => {
                   a.playUIClick(),
@@ -32584,7 +32584,7 @@ ActivePolyModLoader.importMods().then(() => {
               d.appendChild(u),
               Wx(this, zx, document.createElement("button"), "f"),
               Vx(this, zx, "f").className = "hidden",
-              Vx(this, zx, "f").innerHTML = '<img class="button-icon" src="images/copy.svg"> ',
+              Vx(this, zx, "f").innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/copy.svg"> ',
               Vx(this, zx, "f").append(document.createTextNode(r.get("Copy"))),
               Vx(this, zx, "f").addEventListener("click", ( () => {
                   a.playUIClick();
@@ -32601,7 +32601,7 @@ ActivePolyModLoader.importMods().then(() => {
               d.appendChild(Vx(this, zx, "f")),
               Wx(this, Ox, document.createElement("button"), "f"),
               Vx(this, Ox, "f").className = "hidden",
-              Vx(this, Ox, "f").innerHTML = '<img class="button-icon" src="images/import.svg"> ',
+              Vx(this, Ox, "f").innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/import.svg"> ',
               Vx(this, Ox, "f").append(document.createTextNode(r.get("Import"))),
               Vx(this, Ox, "f").addEventListener("click", ( () => {
                   a.playUIClick();
@@ -33113,17 +33113,17 @@ ActivePolyModLoader.importMods().then(() => {
               case QA.Summer:
                   i = "summer",
                   r = Kk(this, vk, "f").get("Summer"),
-                  a = "images/summer.svg";
+                  a = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/summer.svg";
                   break;
               case QA.Winter:
                   i = "winter",
                   r = Kk(this, vk, "f").get("Winter"),
-                  a = "images/winter_colored.svg";
+                  a = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/winter_colored.svg";
                   break;
               case QA.Desert:
                   i = "desert",
                   r = Kk(this, vk, "f").get("Desert"),
-                  a = "images/desert_colored.svg"
+                  a = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/desert_colored.svg"
               }
               const s = document.createElement("div");
               s.className = "environment-title " + i,
@@ -33152,13 +33152,13 @@ ActivePolyModLoader.importMods().then(() => {
           c.appendChild(r),
           n.environment) {
           case QA.Summer:
-              u = "images/summer.svg";
+              u = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/summer.svg";
               break;
           case QA.Winter:
-              u = "images/winter.svg";
+              u = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/winter.svg";
               break;
           case QA.Desert:
-              u = "images/desert.svg"
+              u = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/desert.svg"
           }
           const p = document.createElement("img");
           p.className = "environment",
@@ -33172,7 +33172,7 @@ ActivePolyModLoader.importMods().then(() => {
           null != a) {
               const e = document.createElement("button");
               e.className = "delete-button",
-              e.innerHTML = '<img src="images/erase.svg">',
+              e.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/erase.svg">',
               e.addEventListener("click", ( () => {
                   Kk(this, wk, "f").playUIClick(),
                   a()
@@ -33334,8 +33334,8 @@ ActivePolyModLoader.importMods().then(() => {
               Kk(this, Mk, "f").appendChild(Kk(this, Rk, "f"));
               const g = document.createElement("button");
               g.className = "button",
-              l ? (g.innerHTML = '<img class="button-icon" src="images/erase.svg"> ',
-              g.append(document.createTextNode(Kk(this, vk, "f").get("Cancel")))) : (g.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
+              l ? (g.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/erase.svg"> ',
+              g.append(document.createTextNode(Kk(this, vk, "f").get("Cancel")))) : (g.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/back.svg"> ',
               g.append(document.createTextNode(Kk(this, vk, "f").get("Back")))),
               g.addEventListener("click", ( () => {
                   Kk(this, wk, "f").playUIClick(),
@@ -33359,11 +33359,11 @@ ActivePolyModLoader.importMods().then(() => {
               )),
               v.appendChild(Kk(this, Uk, "f"));
               const w = document.createElement("img");
-              w.src = "images/search.svg",
+              w.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/search.svg",
               v.appendChild(w);
               const y = document.createElement("button");
               y.className = "button",
-              y.innerHTML = '<img class="button-icon" src="images/import.svg"> ',
+              y.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/import.svg"> ',
               y.append(document.createTextNode(Kk(this, vk, "f").get("Import"))),
               y.addEventListener("click", ( () => {
                   Kk(this, wk, "f").playUIClick(),
@@ -33571,12 +33571,12 @@ ActivePolyModLoader.importMods().then(() => {
               let o = !1;
               const l = document.createElement("button")
                 , c = document.createElement("img");
-              c.src = "images/overlapping_disabled.svg",
+              c.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/overlapping_disabled.svg",
               l.appendChild(c),
               l.addEventListener("click", ( () => {
                   t.playUIClick(),
                   o = !o,
-                  c.src = o ? "images/overlapping_enabled.svg" : "images/overlapping_disabled.svg",
+                  c.src = o ? "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/overlapping_enabled.svg" : "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/overlapping_disabled.svg",
                   i(o)
               }
               )),
@@ -33584,12 +33584,12 @@ ActivePolyModLoader.importMods().then(() => {
               let h = !0;
               const d = document.createElement("button")
                 , u = document.createElement("img");
-              u.src = "images/grid_large.svg",
+              u.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/grid_large.svg",
               d.appendChild(u),
               d.addEventListener("click", ( () => {
                   t.playUIClick(),
                   h = !h,
-                  u.src = h ? "images/grid_large.svg" : "images/grid_small.svg",
+                  u.src = h ? "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/grid_large.svg" : "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/grid_small.svg",
                   r(h)
               }
               )),
@@ -33598,7 +33598,7 @@ ActivePolyModLoader.importMods().then(() => {
               p.className = "accordion",
               dE(this, rE, "f").appendChild(p),
               hE(this, oE, document.createElement("button"), "f"),
-              dE(this, oE, "f").innerHTML = '<img src="images/rotation_axis_y_positive.svg">',
+              dE(this, oE, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_y_positive.svg">',
               dE(this, oE, "f").addEventListener("click", ( () => {
                   t.playUIClick(),
                   p.classList.toggle("open");
@@ -33615,22 +33615,22 @@ ActivePolyModLoader.importMods().then(() => {
                   n.tabIndex = -1,
                   e) {
                   case nA.YPositive:
-                      n.innerHTML = '<img src="images/rotation_axis_y_positive.svg">';
+                      n.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_y_positive.svg">';
                       break;
                   case nA.YNegative:
-                      n.innerHTML = '<img src="images/rotation_axis_y_negative.svg">';
+                      n.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_y_negative.svg">';
                       break;
                   case nA.XPositive:
-                      n.innerHTML = '<img src="images/rotation_axis_x_positive.svg">';
+                      n.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_x_positive.svg">';
                       break;
                   case nA.XNegative:
-                      n.innerHTML = '<img src="images/rotation_axis_x_negative.svg">';
+                      n.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_x_negative.svg">';
                       break;
                   case nA.ZPositive:
-                      n.innerHTML = '<img src="images/rotation_axis_z_positive.svg">';
+                      n.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_z_positive.svg">';
                       break;
                   case nA.ZNegative:
-                      n.innerHTML = '<img src="images/rotation_axis_z_negative.svg">'
+                      n.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_z_negative.svg">'
                   }
                   n.addEventListener("click", ( () => {
                       t.playUIClick(),
@@ -33650,7 +33650,7 @@ ActivePolyModLoader.importMods().then(() => {
               )),
               dE(this, rE, "f").appendChild(f),
               hE(this, aE, document.createElement("div"), "f"),
-              dE(this, aE, "f").innerHTML = '<img src="images/rotate.svg">',
+              dE(this, aE, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotate.svg">',
               f.appendChild(dE(this, aE, "f")),
               hE(this, sE, document.createElement("span"), "f"),
               dE(this, sE, "f").textContent = "0°",
@@ -33672,22 +33672,22 @@ ActivePolyModLoader.importMods().then(() => {
               let t;
               switch (e) {
               case nA.YPositive:
-                  t = "images/rotation_axis_y_positive.svg";
+                  t = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_y_positive.svg";
                   break;
               case nA.YNegative:
-                  t = "images/rotation_axis_y_negative.svg";
+                  t = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_y_negative.svg";
                   break;
               case nA.XPositive:
-                  t = "images/rotation_axis_x_positive.svg";
+                  t = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_x_positive.svg";
                   break;
               case nA.XNegative:
-                  t = "images/rotation_axis_x_negative.svg";
+                  t = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_x_negative.svg";
                   break;
               case nA.ZPositive:
-                  t = "images/rotation_axis_z_positive.svg";
+                  t = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_z_positive.svg";
                   break;
               case nA.ZNegative:
-                  t = "images/rotation_axis_z_negative.svg"
+                  t = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/rotation_axis_z_negative.svg"
               }
               dE(this, oE, "f").innerHTML = "";
               const n = document.createElement("img");
@@ -33865,7 +33865,7 @@ ActivePolyModLoader.importMods().then(() => {
               h.appendChild(B);
               const U = document.createElement("button");
               U.className = "button",
-              U.innerHTML = '<img class="button-icon" src="images/cancel.svg"> ',
+              U.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/cancel.svg"> ',
               U.append(document.createTextNode(t.get("Close"))),
               U.addEventListener("click", ( () => {
                   e.playUIClick(),
@@ -33990,7 +33990,7 @@ ActivePolyModLoader.importMods().then(() => {
               x.className = "button environment-button",
               a.environment == QA.Summer && (x.classList.add("selected"),
               x.disabled = !0),
-              x.innerHTML = '<img src="images/summer.svg"> ',
+              x.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/summer.svg"> ',
               x.append(document.createTextNode(t.get("Summer"))),
               x.addEventListener("click", ( () => {
                   e.playUIClick(),
@@ -34008,7 +34008,7 @@ ActivePolyModLoader.importMods().then(() => {
               k.className = "button environment-button",
               a.environment == QA.Winter && (k.classList.add("selected"),
               k.disabled = !0),
-              k.innerHTML = '<img src="images/winter.svg"> ',
+              k.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/winter.svg"> ',
               k.append(document.createTextNode(t.get("Winter"))),
               k.addEventListener("click", ( () => {
                   e.playUIClick(),
@@ -34026,7 +34026,7 @@ ActivePolyModLoader.importMods().then(() => {
               E.className = "button environment-button",
               a.environment == QA.Desert && (E.classList.add("selected"),
               E.disabled = !0),
-              E.innerHTML = '<img src="images/desert.svg"> ',
+              E.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/desert.svg"> ',
               E.append(document.createTextNode(t.get("Desert"))),
               E.addEventListener("click", ( () => {
                   e.playUIClick(),
@@ -34073,7 +34073,7 @@ ActivePolyModLoader.importMods().then(() => {
               d.appendChild(P);
               const I = document.createElement("button");
               I.className = "button",
-              I.innerHTML = '<img class="button-icon" src="images/cancel.svg"> ',
+              I.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/cancel.svg"> ',
               I.append(document.createTextNode(t.get("Close"))),
               I.addEventListener("click", ( () => {
                   e.playUIClick();
@@ -34085,7 +34085,7 @@ ActivePolyModLoader.importMods().then(() => {
               null != l && (TE(this, SE, document.createElement("button"), "f"),
               _E(this, SE, "f").disabled = null == n || 0 == n.length,
               _E(this, SE, "f").className = "button",
-              _E(this, SE, "f").innerHTML = '<img class="button-icon" src="images/save.svg"> ',
+              _E(this, SE, "f").innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/save.svg"> ',
               _E(this, SE, "f").append(document.createTextNode(t.get("Save"))),
               _E(this, SE, "f").addEventListener("click", ( () => {
                   e.playUIClick();
@@ -34297,7 +34297,7 @@ ActivePolyModLoader.importMods().then(() => {
       lM = function(e) {
           var t;
           _M(this, eM, e, "f"),
-          CM(this, uS, "f").innerHTML = '<img class="button-icon" src="images/settings.svg"> ',
+          CM(this, uS, "f").innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/settings.svg"> ',
           CM(this, uS, "f").append(document.createTextNode(null !== (t = CM(this, eM, "f")) && void 0 !== t ? t : CM(this, OE, "f").get("Unnamed Track")))
       }
       ,
@@ -34623,7 +34623,7 @@ ActivePolyModLoader.importMods().then(() => {
                       if (e == i ? n.classList.add("selected") : n.classList.remove("selected"),
                       !r.hasAttribute("src"))
                           if (e == Jy.Default)
-                              r.src = "images/empty.svg",
+                              r.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/empty.svg",
                               r.className = "";
                           else {
                               const n = CM(this, HE, "f").getPart(t.id).colors.get(e);
@@ -35012,7 +35012,7 @@ ActivePolyModLoader.importMods().then(() => {
               CM(this, eS, "f").appendChild(v);
               const y = document.createElement("button");
               y.className = "button",
-              y.innerHTML = '<img class="button-icon" src="images/quit.svg"> ',
+              y.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/quit.svg"> ',
               y.append(document.createTextNode(CM(this, OE, "f").get("Exit"))),
               y.addEventListener("click", ( () => {
                   CM(this, UE, "f").playUIClick(),
@@ -35022,7 +35022,7 @@ ActivePolyModLoader.importMods().then(() => {
               v.appendChild(y);
               const A = document.createElement("button");
               A.className = "button",
-              A.innerHTML = '<img class="button-icon" src="images/test.svg"> ',
+              A.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/test.svg"> ',
               A.append(CM(this, OE, "f").get("Test")),
               A.addEventListener("click", ( () => {
                   CM(this, UE, "f").playUIClick(),
@@ -35032,7 +35032,7 @@ ActivePolyModLoader.importMods().then(() => {
               v.appendChild(A);
               const b = document.createElement("button");
               b.className = "button",
-              b.innerHTML = '<img class="button-icon" src="images/random.svg"> ',
+              b.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/random.svg"> ',
               b.append(CM(this, OE, "f").get("Generate")),
               b.addEventListener("click", ( () => {
                   CM(this, UE, "f").playUIClick();
@@ -35514,7 +35514,7 @@ ActivePolyModLoader.importMods().then(() => {
               )), "f");
               const x = document.createElement("button");
               x.className = "button",
-              x.innerHTML = '<img class="button-icon" src="images/load.svg"> ',
+              x.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/load.svg"> ',
               x.append(document.createTextNode(CM(this, OE, "f").get("Load"))),
               x.addEventListener("click", ( () => {
                   CM(this, UE, "f").playUIClick(),
@@ -35534,7 +35534,7 @@ ActivePolyModLoader.importMods().then(() => {
               v.appendChild(x);
               const k = document.createElement("button");
               k.className = "button",
-              k.innerHTML = '<img class="button-icon" src="images/save.svg"> ',
+              k.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/save.svg"> ',
               k.append(document.createTextNode(CM(this, OE, "f").get("Save"))),
               k.addEventListener("click", ( () => {
                   CM(this, UE, "f").playUIClick();
@@ -35585,7 +35585,7 @@ ActivePolyModLoader.importMods().then(() => {
               v.appendChild(k);
               const E = document.createElement("button");
               E.className = "button",
-              E.innerHTML = '<img class="button-icon" src="images/export.svg"> ',
+              E.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/export.svg"> ',
               E.append(document.createTextNode(CM(this, OE, "f").get("Export"))),
               E.addEventListener("click", ( () => {
                   CM(this, UE, "f").playUIClick();
@@ -35641,7 +35641,7 @@ ActivePolyModLoader.importMods().then(() => {
               v.appendChild(E);
               const S = document.createElement("button");
               S.className = "button",
-              S.innerHTML = '<img class="button-icon" src="images/help.svg"> ',
+              S.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/help.svg"> ',
               S.append(document.createTextNode(CM(this, OE, "f").get("Help"))),
               S.addEventListener("click", ( () => {
                   CM(this, UE, "f").playUIClick();
@@ -35673,7 +35673,7 @@ ActivePolyModLoader.importMods().then(() => {
               CM(this, eS, "f").appendChild(M),
               _M(this, uS, document.createElement("button"), "f"),
               CM(this, uS, "f").className = "button",
-              CM(this, uS, "f").innerHTML = '<img class="button-icon" src="images/settings.svg"> ',
+              CM(this, uS, "f").innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/settings.svg"> ',
               CM(this, uS, "f").append(document.createTextNode(null !== (f = CM(this, eM, "f")) && void 0 !== f ? f : CM(this, OE, "f").get("Unnamed Track"))),
               CM(this, uS, "f").addEventListener("click", ( () => {
                   CM(this, UE, "f").playUIClick(),
@@ -35716,7 +35716,7 @@ ActivePolyModLoader.importMods().then(() => {
               )),
               CM(this, rS, "f").appendChild(P);
               const I = document.createElement("img");
-              I.src = "images/erase.svg",
+              I.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/erase.svg",
               P.appendChild(I),
               CM(this, US, "f").add(C),
               CM(this, iM, "f").push({
@@ -36077,7 +36077,7 @@ ActivePolyModLoader.importMods().then(() => {
               const i = document.createElement("div");
               XM(this, QM, "f").appendChild(i);
               const r = document.createElement("img");
-              r.src = "images/checkpoint.svg",
+              r.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/checkpoint.svg",
               i.appendChild(r),
               qM(this, YM, document.createElement("span"), "f"),
               i.appendChild(XM(this, YM, "f"))
@@ -36600,7 +36600,7 @@ ActivePolyModLoader.importMods().then(() => {
               p_(this, c_, "f").appendChild(p_(this, h_, "f"));
               const r = document.createElement("button");
               r.className = "reset",
-              r.innerHTML = '<img src="images/reset.svg">',
+              r.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/reset.svg">',
               r.addEventListener("touchstart", ( () => {
                   t.playUIClick(),
                   r.classList.add("active"),
@@ -36616,19 +36616,19 @@ ActivePolyModLoader.importMods().then(() => {
               a.className = "left-container",
               p_(this, h_, "f").appendChild(a);
               const s = document.createElement("div");
-              s.innerHTML = '<img src="images/arrow_up.svg">',
+              s.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_up.svg">',
               a.appendChild(s);
               const o = document.createElement("div");
-              o.innerHTML = '<img src="images/arrow_down.svg">',
+              o.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_down.svg">',
               a.appendChild(o);
               const l = document.createElement("div");
               l.className = "right-container",
               p_(this, h_, "f").appendChild(l);
               const c = document.createElement("div");
-              c.innerHTML = '<img src="images/arrow_left.svg">',
+              c.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_left.svg">',
               l.appendChild(c);
               const h = document.createElement("div");
-              h.innerHTML = '<img src="images/arrow_right.svg">',
+              h.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_right.svg">',
               l.appendChild(h),
               u_(this, d_, (t => {
                   let n = !1
@@ -36895,7 +36895,7 @@ ActivePolyModLoader.importMods().then(() => {
               ), "f"));
               const o = document.createElement("button");
               o.className = "button",
-              o.innerHTML = '<img class="button-icon" src="images/quit.svg"> ',
+              o.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/quit.svg"> ',
               o.append(document.createTextNode(t.get("Exit"))),
               o.addEventListener("click", ( () => {
                   e.playUIClick(),
@@ -36905,7 +36905,7 @@ ActivePolyModLoader.importMods().then(() => {
               W_(this, N_, "f").appendChild(o),
               F_(this, B_, document.createElement("button"), "f"),
               W_(this, B_, "f").className = "button",
-              W_(this, B_, "f").innerHTML = '<img class="button-icon" src="images/preview.svg"> ',
+              W_(this, B_, "f").innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/preview.svg"> ',
               W_(this, B_, "f").append(document.createTextNode(t.get("Watch"))),
               W_(this, B_, "f").addEventListener("click", ( () => {
                   e.playUIClick(),
@@ -38539,7 +38539,7 @@ ActivePolyModLoader.importMods().then(() => {
               xI(this, oI, "f").appendChild(l);
               const c = document.createElement("button");
               c.className = "button cancel",
-              c.innerHTML = '<img class="button-icon" src="images/cancel.svg"> ',
+              c.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/cancel.svg"> ',
               c.append(document.createTextNode(t.get("Cancel"))),
               c.addEventListener("click", ( () => {
                   n.playUIClick(),
@@ -38551,7 +38551,7 @@ ActivePolyModLoader.importMods().then(() => {
               l.appendChild(c);
               const h = document.createElement("button");
               h.className = "button reset",
-              h.innerHTML = '<img class="button-icon" src="images/reset_settings.svg"> ',
+              h.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/reset_settings.svg"> ',
               h.append(document.createTextNode(t.get("Reset"))),
               h.addEventListener("click", ( () => {
                   n.playUIClick(),
@@ -38566,7 +38566,7 @@ ActivePolyModLoader.importMods().then(() => {
               const d = document.createElement("button");
               d.className = "button apply",
               d.append(document.createTextNode(t.get("Apply"))),
-              d.innerHTML += ' <img class="button-icon" src="images/apply.svg">',
+              d.innerHTML += ' <img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/apply.svg">',
               d.addEventListener("click", ( () => {
                   n.playUIClick(),
                   i.updateSettings(Array.from(xI(this, dI, "f"))),
@@ -38832,7 +38832,7 @@ ActivePolyModLoader.importMods().then(() => {
               yR(this, tR, "f").appendChild(m);
               const g = document.createElement("button");
               g.className = "button back",
-              g.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
+              g.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/back.svg"> ',
               g.append(document.createTextNode(n.get("Back"))),
               g.addEventListener("click", ( () => {
                   r.playUIClick(),
@@ -38842,7 +38842,7 @@ ActivePolyModLoader.importMods().then(() => {
               m.appendChild(g),
               wR(this, rR, document.createElement("button"), "f"),
               yR(this, rR, "f").className = "button icon-button first",
-              yR(this, rR, "f").innerHTML = '<img class="button-icon" src="images/pin.svg">',
+              yR(this, rR, "f").innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/pin.svg">',
               yR(this, rR, "f").disabled = !0,
               yR(this, rR, "f").addEventListener("click", ( () => {
                   r.playUIClick(),
@@ -38858,7 +38858,7 @@ ActivePolyModLoader.importMods().then(() => {
               yR(this, aR, "f").className = "button only-verified",
               yR(this, cR, "f") || yR(this, aR, "f").classList.add("disabled"),
               yR(this, aR, "f").textContent = yR(this, YI, "f").get("Only verified"),
-              yR(this, aR, "f").innerHTML += '<img class="button-icon" src="images/verified.svg">',
+              yR(this, aR, "f").innerHTML += '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/verified.svg">',
               yR(this, aR, "f").addEventListener("click", ( () => {
                   r.playUIClick(),
                   wR(this, cR, !yR(this, cR, "f"), "f"),
@@ -39006,7 +39006,7 @@ ActivePolyModLoader.importMods().then(() => {
           l.appendChild(c);
           const h = document.createElement("img");
           h.className = "show",
-          h.src = "images/car_thumbnail_placeholder.png",
+          h.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/car_thumbnail_placeholder.png",
           c.appendChild(h);
           const d = document.createElement("img");
           BI(i, o).then((e => {
@@ -39021,7 +39021,7 @@ ActivePolyModLoader.importMods().then(() => {
           c.appendChild(d);
           const u = document.createElement("img");
           u.className = "checkmark",
-          u.src = "images/checkmark.svg",
+          u.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/checkmark.svg",
           l.appendChild(u);
           const p = document.createElement("div");
           p.className = "left",
@@ -39053,13 +39053,13 @@ ActivePolyModLoader.importMods().then(() => {
               w.appendChild(e)
           }
           const A = document.createElement("p");
-          r == HI.Pending ? (A.innerHTML = '<img src="images/state_pending.svg">',
+          r == HI.Pending ? (A.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/state_pending.svg">',
           A.prepend(document.createTextNode(yR(this, YI, "f").get("Pending"))),
-          A.className = "verified-state pending") : r == HI.Verified ? (A.innerHTML = '<img src="images/state_verified.svg">',
+          A.className = "verified-state pending") : r == HI.Verified ? (A.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/state_verified.svg">',
           A.prepend(document.createTextNode(yR(this, YI, "f").get("Verified"))),
-          A.className = "verified-state verified") : r == HI.InvalidDuplicate ? (A.innerHTML = '<img src="images/state_invalid.svg">',
+          A.className = "verified-state verified") : r == HI.InvalidDuplicate ? (A.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/state_invalid.svg">',
           A.prepend(document.createTextNode(yR(this, YI, "f").get("Duplicate"))),
-          A.className = "verified-state invalid") : (A.innerHTML = '<img src="images/state_invalid.svg">',
+          A.className = "verified-state invalid") : (A.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/state_invalid.svg">',
           A.prepend(document.createTextNode(yR(this, YI, "f").get("Invalid"))),
           A.className = "verified-state invalid"),
           v.appendChild(A)
@@ -39204,7 +39204,7 @@ ActivePolyModLoader.importMods().then(() => {
               const k = document.createElement("button");
               let E;
               switch (k.className = "button share",
-              k.innerHTML = '<img src="images/share.svg">',
+              k.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/share.svg">',
               k.addEventListener("click", ( () => {
                   a.playUIClick(),
                   OR(this, CR, "f").className = "hidden";
@@ -39221,13 +39221,13 @@ ActivePolyModLoader.importMods().then(() => {
               x.appendChild(k),
               l.environment) {
               case QA.Summer:
-                  E = "images/summer.svg";
+                  E = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/summer.svg";
                   break;
               case QA.Winter:
-                  E = "images/winter.svg";
+                  E = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/winter.svg";
                   break;
               case QA.Desert:
-                  E = "images/desert.svg"
+                  E = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/desert.svg"
               }
               const S = document.createElement("img");
               S.className = "environment",
@@ -39262,7 +39262,7 @@ ActivePolyModLoader.importMods().then(() => {
               OR(this, PR, "f").appendChild(OR(this, IR, "f")),
               zR(this, RR, document.createElement("button"), "f"),
               OR(this, RR, "f").className = "button watch",
-              OR(this, RR, "f").innerHTML = '<img src="images/preview.svg">',
+              OR(this, RR, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/preview.svg">',
               OR(this, RR, "f").disabled = !0,
               OR(this, RR, "f").prepend(document.createTextNode(t.get("Watch"))),
               OR(this, RR, "f").addEventListener("click", ( () => {
@@ -39307,7 +39307,7 @@ ActivePolyModLoader.importMods().then(() => {
               OR(this, xR, "m", UR).call(this);
               const R = document.createElement("button");
               R.className = "button play",
-              R.innerHTML = '<img src="images/play.svg">',
+              R.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/play.svg">',
               R.prepend(document.createTextNode(t.get("Play"))),
               R.addEventListener("click", ( () => {
                   if (a.playUIClick(),
@@ -39419,7 +39419,7 @@ ActivePolyModLoader.importMods().then(() => {
               r.appendChild(e);
               const t = document.createElement("img");
               t.className = "placeholder show",
-              t.src = "images/car_thumbnail_placeholder.png",
+              t.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/car_thumbnail_placeholder.png",
               e.appendChild(t);
               const i = document.createElement("img");
               BI(n.carColors, eL(this, ZR, "f")).then((e => {
@@ -39442,7 +39442,7 @@ ActivePolyModLoader.importMods().then(() => {
               r.appendChild(e);
               const t = document.createElement("img");
               t.className = "show",
-              t.src = "images/car_thumbnail_placeholder.png",
+              t.src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/car_thumbnail_placeholder.png",
               e.appendChild(t);
               const n = document.createElement("p");
               n.className = "name empty",
@@ -39486,7 +39486,7 @@ ActivePolyModLoader.importMods().then(() => {
               eL(this, KR, "f").appendChild(c);
               const h = document.createElement("button");
               h.className = "button",
-              h.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
+              h.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/back.svg"> ',
               h.append(document.createTextNode(e.get("Back"))),
               h.addEventListener("click", ( () => {
                   t.playUIClick(),
@@ -39496,7 +39496,7 @@ ActivePolyModLoader.importMods().then(() => {
               c.appendChild(h);
               const d = document.createElement("button");
               d.className = "button right",
-              d.innerHTML = '<img class="button-icon" src="images/import.svg"> ',
+              d.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/import.svg"> ',
               d.append(document.createTextNode(e.get("Import"))),
               d.addEventListener("click", ( () => {
                   t.playUIClick(),
@@ -39758,7 +39758,7 @@ ActivePolyModLoader.importMods().then(() => {
               _L(this, bL, "f").appendChild(d);
               const u = document.createElement("button");
               u.className = "button delete",
-              u.innerHTML = ' <img class="button-icon" src="images/delete.svg"> ',
+              u.innerHTML = ' <img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/delete.svg"> ',
               u.append(e.get("Delete")),
               u.addEventListener("click", ( () => {
                   t.playUIClick(),
@@ -39768,7 +39768,7 @@ ActivePolyModLoader.importMods().then(() => {
               _L(this, bL, "f").appendChild(u);
               const p = document.createElement("button");
               p.className = "button",
-              p.innerHTML = '<img class="button-icon" src="images/export.svg"> ',
+              p.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/export.svg"> ',
               p.append(e.get("Export")),
               p.addEventListener("click", ( () => {
                   var e;
@@ -39871,7 +39871,7 @@ ActivePolyModLoader.importMods().then(() => {
               BL(this, LL, "f").appendChild(o);
               const l = document.createElement("button");
               if (l.className = "button",
-              l.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
+              l.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/back.svg"> ',
               l.append(document.createTextNode(t.get("Back"))),
               l.addEventListener("click", ( () => {
                   e.playUIClick(),
@@ -39882,7 +39882,7 @@ ActivePolyModLoader.importMods().then(() => {
               null != r) {
                   const n = document.createElement("button");
                   n.className = "button right",
-                  n.innerHTML = '<img class="button-icon" src="images/import.svg"> ',
+                  n.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/import.svg"> ',
                   n.append(document.createTextNode(t.get("Import"))),
                   n.addEventListener("click", ( () => {
                       e.playUIClick(),
@@ -39893,7 +39893,7 @@ ActivePolyModLoader.importMods().then(() => {
               } else {
                   const n = document.createElement("button");
                   n.className = "button right",
-                  n.innerHTML = '<img class="button-icon" src="images/copy.svg"> ',
+                  n.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/copy.svg"> ',
                   n.append(document.createTextNode(t.get("Copy"))),
                   n.addEventListener("click", ( () => {
                       e.playUIClick();
@@ -40085,7 +40085,7 @@ ActivePolyModLoader.importMods().then(() => {
           vD(this, aD, [], "f");
           const v = document.createElement("button");
           v.className = "button button-image",
-          v.innerHTML = '<img src="images/customize.svg">',
+          v.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/customize.svg">',
           v.addEventListener("click", ( () => {
               n.playUIClick(),
               u()
@@ -40098,7 +40098,7 @@ ActivePolyModLoader.importMods().then(() => {
           wD(this, iD, "f").push(v);
           const y = document.createElement("button");
           y.className = "button button-image",
-          y.innerHTML = '<img src="images/editor.svg">',
+          y.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/editor.svg">',
           y.addEventListener("click", ( () => {
               n.playUIClick(),
               p()
@@ -40111,7 +40111,7 @@ ActivePolyModLoader.importMods().then(() => {
           wD(this, iD, "f").push(y);
           const b = document.createElement("button");
           b.className = "button button-image",
-          b.innerHTML = '<img src="images/settings.svg">',
+          b.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/settings.svg">',
           b.addEventListener("click", ( () => {
               n.playUIClick(),
               wD(this, FL, "m", uD).call(this),
@@ -40137,7 +40137,7 @@ ActivePolyModLoader.importMods().then(() => {
           wD(this, iD, "f").push(b);
           const k = document.createElement("button");
           k.className = "button button-image",
-          k.innerHTML = '<img src="images/helmet.svg">',
+          k.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/helmet.svg">',
           k.addEventListener("click", ( () => {
               n.playUIClick(),
               wD(this, FL, "m", uD).call(this);
@@ -40277,7 +40277,7 @@ ActivePolyModLoader.importMods().then(() => {
           wD(this, iD, "f").push(k);
           const S = document.createElement("button");
           S.className = "button button-image",
-          S.innerHTML = '<img src="images/play.svg">',
+          S.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/play.svg">',
           S.addEventListener("click", ( () => {
               n.playUIClick(),
               wD(this, FL, "m", uD).call(this),
@@ -40293,7 +40293,7 @@ ActivePolyModLoader.importMods().then(() => {
           window.electron) {
               const e = document.createElement("button");
               e.className = "button small",
-              e.innerHTML = '<img src="images/quit.svg">',
+              e.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/quit.svg">',
               e.appendChild(document.createTextNode(" " + t.get("Quit"))),
               e.addEventListener("click", ( () => {
                   var e;
@@ -40307,13 +40307,13 @@ ActivePolyModLoader.importMods().then(() => {
           {
               const e = document.createElement("button");
               e.className = "button small",
-              i.isFullscreen ? (e.innerHTML = '<img src="images/windowed.svg">',
-              e.appendChild(document.createTextNode(" " + t.get("Windowed")))) : (e.innerHTML = '<img src="images/fullscreen.svg">',
+              i.isFullscreen ? (e.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/windowed.svg">',
+              e.appendChild(document.createTextNode(" " + t.get("Windowed")))) : (e.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/fullscreen.svg">',
               e.appendChild(document.createTextNode(" " + t.get("Fullscreen")))),
               null != wD(this, lD, "f") && i.removeFullscreenChangeListener(wD(this, lD, "f")),
               i.addFullscreenChangeListener(vD(this, lD, ( () => {
-                  i.isFullscreen ? (e.innerHTML = '<img src="images/windowed.svg">',
-                  e.appendChild(document.createTextNode(" " + t.get("Windowed")))) : (e.innerHTML = '<img src="images/fullscreen.svg">',
+                  i.isFullscreen ? (e.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/windowed.svg">',
+                  e.appendChild(document.createTextNode(" " + t.get("Windowed")))) : (e.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/fullscreen.svg">',
                   e.appendChild(document.createTextNode(" " + t.get("Fullscreen"))))
               }
               ), "f")),
@@ -40422,7 +40422,7 @@ ActivePolyModLoader.importMods().then(() => {
               wD(this, GL, "f").className = "menu",
               wD(this, HL, "f").appendChild(wD(this, GL, "f")),
               vD(this, jL, document.createElement("img"), "f"),
-              wD(this, jL, "f").src = "images/logo.svg",
+              wD(this, jL, "f").src = "https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/logo.svg",
               wD(this, jL, "f").className = "logo",
               wD(this, GL, "f").appendChild(wD(this, jL, "f")),
               function() {
@@ -40470,7 +40470,7 @@ ActivePolyModLoader.importMods().then(() => {
               wD(this, QL, "f").className = "discord-link",
               wD(this, QL, "f").href = "https://www.kodub.com/discord/polytrack",
               wD(this, QL, "f").target = "_blank",
-              wD(this, QL, "f").innerHTML = '<img src="images/discord.svg">',
+              wD(this, QL, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/discord.svg">',
               wD(this, GL, "f").appendChild(wD(this, QL, "f")),
               vD(this, YL, document.createElement("div"), "f"),
               wD(this, YL, "f").className = "info",
@@ -41030,11 +41030,11 @@ ActivePolyModLoader.importMods().then(() => {
       SN = new WeakMap,
       AN = new WeakSet,
       MN = function(e, t) {
-          return RN(this, AN, "m", _N).call(this, "tracks/official/" + e, t)
+          return RN(this, AN, "m", _N).call(this, "https://cdn.jsdelivr.net/gh/betterchili/polytrack/tracks/official/" + e, t)
       }
       ,
       TN = function(e, t) {
-          return RN(this, AN, "m", _N).call(this, "tracks/community/" + e, t)
+          return RN(this, AN, "m", _N).call(this, "https://cdn.jsdelivr.net/gh/betterchili/polytrack/tracks/community/" + e, t)
       }
       ,
       _N = function(e, t) {
@@ -41590,7 +41590,7 @@ ActivePolyModLoader.importMods().then(() => {
                     , n = new NN;
                   n.setDecoderPath("lib/draco/"),
                   t.setDRACOLoader(n);
-                  const i = (r = ["models/blocks.glb", "models/pillar.glb", "models/planes.glb", "models/road.glb", "models/road_wide.glb", "models/signs.glb", "models/wall_track.glb"],
+                  const i = (r = ["https://cdn.jsdelivr.net/gh/betterchili/polytrack/models/blocks.glb", "https://cdn.jsdelivr.net/gh/betterchili/polytrack/models/pillar.glb", "https://cdn.jsdelivr.net/gh/betterchili/polytrack/models/planes.glb", "https://cdn.jsdelivr.net/gh/betterchili/polytrack/models/road.glb", "https://cdn.jsdelivr.net/gh/betterchili/polytrack/models/road_wide.glb", "https://cdn.jsdelivr.net/gh/betterchili/polytrack/models/signs.glb", "https://cdn.jsdelivr.net/gh/betterchili/polytrack/models/wall_track.glb"],
                   Promise.all(r.map((e => {
                       return n = e,
                       new Promise((e => {
@@ -42055,7 +42055,7 @@ ActivePolyModLoader.importMods().then(() => {
               tB.set(this, new jt(100 * Math.random(),100 * Math.random())),
               nB(this, JN, t, "f"),
               n.addResource();
-              const i = (new vo).load("images/clouds.jpg", ( () => {
+              const i = (new vo).load("https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/clouds.jpg", ( () => {
                   n.loadedResource()
               }
               ));
@@ -47779,19 +47779,19 @@ ActivePolyModLoader.importMods().then(() => {
               Bz(this, Cz, "f").appendChild(Bz(this, Pz, "f")),
               Nz(this, Iz, document.createElement("div"), "f"),
               Bz(this, Iz, "f").className = "arrow-up",
-              Bz(this, Iz, "f").innerHTML = '<img src="images/arrow_up.svg">',
+              Bz(this, Iz, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_up.svg">',
               Bz(this, Pz, "f").appendChild(Bz(this, Iz, "f")),
               Nz(this, Rz, document.createElement("div"), "f"),
               Bz(this, Rz, "f").className = "arrow-right",
-              Bz(this, Rz, "f").innerHTML = '<img src="images/arrow_right.svg">',
+              Bz(this, Rz, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_right.svg">',
               Bz(this, Pz, "f").appendChild(Bz(this, Rz, "f")),
               Nz(this, Lz, document.createElement("div"), "f"),
               Bz(this, Lz, "f").className = "arrow-down",
-              Bz(this, Lz, "f").innerHTML = '<img src="images/arrow_down.svg">',
+              Bz(this, Lz, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_down.svg">',
               Bz(this, Pz, "f").appendChild(Bz(this, Lz, "f")),
               Nz(this, Dz, document.createElement("div"), "f"),
               Bz(this, Dz, "f").className = "arrow-left",
-              Bz(this, Dz, "f").innerHTML = '<img src="images/arrow_left.svg">',
+              Bz(this, Dz, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/arrow_left.svg">',
               Bz(this, Pz, "f").appendChild(Bz(this, Dz, "f"))
           }
           dispose() {
@@ -47853,7 +47853,7 @@ ActivePolyModLoader.importMods().then(() => {
       }
       ,
       nO = function() {
-          aO(this, Xz, "f") ? aO(this, Gz, "f").innerHTML = '<img src="images/reset.svg">' : aO(this, qz, "f") ? aO(this, Gz, "f").innerHTML = '<img src="images/play.svg">' : aO(this, Gz, "f").innerHTML = '<img src="images/pause.svg">'
+          aO(this, Xz, "f") ? aO(this, Gz, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/reset.svg">' : aO(this, qz, "f") ? aO(this, Gz, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/play.svg">' : aO(this, Gz, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/pause.svg">'
       }
       ,
       iO = function() {
@@ -48011,7 +48011,7 @@ ActivePolyModLoader.importMods().then(() => {
               uO(this, hO, "f").className = "preview-toolbar";
               const a = document.createElement("button");
               if (a.className = "button",
-              a.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
+              a.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/back.svg"> ',
               a.append(document.createTextNode(t.get("Back"))),
               a.addEventListener("click", ( () => {
                   e.playUIClick(),
@@ -48022,7 +48022,7 @@ ActivePolyModLoader.importMods().then(() => {
               null != i) {
                   const n = document.createElement("button");
                   n.className = "button",
-                  n.innerHTML = '<img class="button-icon" src="images/customize.svg"> ',
+                  n.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/customize.svg"> ',
                   n.append(document.createTextNode(t.get("Switch car"))),
                   n.addEventListener("click", ( () => {
                       e.playUIClick(),
@@ -48403,20 +48403,20 @@ ActivePolyModLoader.importMods().then(() => {
           ));
           const t = n(7780);
           for (const n of t.keys())
-              e.preloadImage("images/" + n.substring(2));
+              e.preloadImage("https://cdn.jsdelivr.net/gh/betterchili/polytrack/images/" + n.substring(2));
           const i = new ZN
             , r = new OB
             , a = new ul(e);
-          a.load("music", ["audio/music.mp3", "audio/music.flac"]),
-          a.load("click", ["audio/click.flac"]),
-          a.load("engine", ["audio/engine.flac"]),
-          a.load("suspension", ["audio/suspension.flac"]),
-          a.load("tires", ["audio/tires.flac"]),
-          a.load("collision", ["audio/collision.flac"]),
-          a.load("skidding", ["audio/skidding.flac"]),
-          a.load("editor_edit", ["audio/editor_edit.flac"]),
-          a.load("checkpoint", ["audio/checkpoint.flac"]),
-          a.load("finish", ["audio/checkpoint.flac"]),
+          a.load("music", ["https://cdn.jsdelivr.net/gh/betterchili/polytrack/audio/music.mp3", "https://cdn.jsdelivr.net/gh/betterchili/polytrack/audio/music.flac"]),
+          a.load("click", ["https://cdn.jsdelivr.net/gh/betterchili/polytrack/audio/click.flac"]),
+          a.load("engine", ["https://cdn.jsdelivr.net/gh/betterchili/polytrack/audio/engine.flac"]),
+          a.load("suspension", ["https://cdn.jsdelivr.net/gh/betterchili/polytrack/audio/suspension.flac"]),
+          a.load("tires", ["https://cdn.jsdelivr.net/gh/betterchili/polytrack/audio/tires.flac"]),
+          a.load("collision", ["https://cdn.jsdelivr.net/gh/betterchili/polytrack/audio/collision.flac"]),
+          a.load("skidding", ["https://cdn.jsdelivr.net/gh/betterchili/polytrack/audio/skidding.flac"]),
+          a.load("editor_edit", ["https://cdn.jsdelivr.net/gh/betterchili/polytrack/audio/editor_edit.flac"]),
+          a.load("checkpoint", ["https://cdn.jsdelivr.net/gh/betterchili/polytrack/audio/checkpoint.flac"]),
+          a.load("finish", ["https://cdn.jsdelivr.net/gh/betterchili/polytrack/audio/checkpoint.flac"]),
           $u.initResources(e);
           const s = Aw.initResources();
           ex.initResources(e);
