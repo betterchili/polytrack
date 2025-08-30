@@ -1,0 +1,10 @@
+{
+    "polymod": {
+        "name": "Example Mod",
+        "id": "examplemod",
+        "author": "Example Man",
+        "targets": ["0.5.0-beta5", "0.5.0"],
+        "main": "main.mod.js"
+    },
+    "dependencies": {}
+}
